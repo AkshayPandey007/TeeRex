@@ -1,0 +1,94 @@
+.cartBox{
+   border-bottom: 3px solid gray;
+    width: 40%;
+   padding: 20px 0px 20px 0px;
+    margin:auto
+}
+
+
+.cartMapEachBox{
+    /* border: 1px solid black; */
+    display: flex;
+    height: 80px;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+
+.cartImageBox{
+    width: 15%;
+    /* border: 1px solid black; */
+}
+
+
+.CartQtyAndDelBox{
+   /* border: 1px solid red; */
+   padding: 20px 0px 20px 0px;
+   display: flex;
+   gap: 15px;
+  
+}
+
+.totalAmountBox{
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 30px;
+    width: 30%;
+    margin: auto;
+    margin-top: 25px;
+}
+
+
+.cartQty{
+    padding: 0px 10px 0px 10px;
+}
+
+
+.cartBtn{
+    padding: 0px 10px 0px 10px;
+    background-color: rgb(77, 74, 74);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+}
+
+
+.cartBtn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+
+@media  (min-width:80px) and (max-width:680px){
+  .cartBox{
+    width: 80%;
+    /* border: 1px solid red; */
+  }
+
+
+
+
+  .cartBtn{
+    height: 20px;
+    /* width: 40%;
+    font-weight: 100; */
+  }
+
+
+  .cartImageBox{
+    width: 35%;
+  }
+
+
+  .name{
+    font-size: 12px;
+  }
+
+
+  .cartQty{
+    height: 20px;
+  }
+
+}

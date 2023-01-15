@@ -1,0 +1,64 @@
+.MainNavBox{
+    height: 80px;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(178, 176, 176);
+    /* flex-wrap: wrap; */
+}
+
+
+
+.logoBox{
+    width: 20%;
+    display: flex;
+    /* border: 1px solid black; */
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.logo{
+   font-size: large;
+}
+
+
+.NavRightBox{
+    /* border: 1px solid black; */
+    width: 20%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.products{
+    text-decoration: none;
+    font-size: large;
+}
+
+
+.cartIcon:hover{
+cursor: pointer;
+}
+
+
+
+@media  (min-width:80px) and (max-width:680px)
+{
+    .MainNavBox{
+        width: 100%;
+        background-color: rgb(178, 176, 176);
+        /* border: 1px solid black; */
+    }
+
+
+    .NavRightBox{
+        width: 40%;
+    }
+}

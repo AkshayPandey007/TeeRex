@@ -1,0 +1,119 @@
+.mapMainBox{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    /* border: 1px solid red; */
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+
+.mapBox{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    /* width: 60%; */
+    padding: 10px 0px 10px 0px;
+}
+
+
+
+.MapimageBox{
+    /* border: 1px solid black; */
+    width: 60%;
+    margin: auto;
+    height: 120px;
+}
+
+
+.mapPriceandBtn{
+    display: flex;
+    /* border: 1px solid black; */
+    width: 85%;
+    margin: auto;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.cartBtn{
+    padding: 0px 25px;
+    background-color: rgb(77, 74, 74);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    height: 30px;
+}
+
+
+.cartBtn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+
+.searchBox{
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    height: 80px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+}
+
+
+.search{
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 10px 0px 10px 0px;
+    width: 60%;
+}
+
+
+.searchBtn:hover{
+    cursor: pointer;
+}
+
+
+
+@media  (min-width:80px) and (max-width:850px){
+    .mapMainBox{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+        /* border: 1px solid red; */
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .searchBox{
+        width: 100%;
+    }
+
+
+    .search{
+        width: 100%;
+    }
+}
+
+
+
+
+
+@media  (min-width:851px) and (max-width:1500px)
+{
+    .mapMainBox{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+        /* border: 1px solid red; */
+        width: 100%;
+        margin-top: 20px;
+    }
+
+}
